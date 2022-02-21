@@ -6,13 +6,19 @@ import Chillum from './Chillums/Chillums'
 import Cutivation from './Cutivation/Cutivation'
 import GrowProfit from './GrowProfit/GrowProfit'
 import Header from './Header/Header'
+import MedicinesSlick from './Medicines Slick/MedicinesSlick'
+import MedicineSmallSlick from './MedicineSmallSlick/MedicineSmallSlick'
 import Portable from './Portable/Portable'
+import Prescribe from './Prescribe/Prescribe'
+import Statistics from './Statistics/Statistics'
+import SubscribeNewsletter from './SubscribeNewsletter/SubscribeNewsletter'
+import TrustedSuppliers from './TrustedSuppliers/TrustedSuppliers'
 import Vaporize from './Vaporize/Vaporize'
 
 const Homepage = () => {
   return (
     <>
-    <Header/>
+    {/* <Header/>
     <Inhalate/>
     <Vaporize/>
     <Portable/>
@@ -20,7 +26,14 @@ const Homepage = () => {
     <Cutivation/>
     <Agriculture/>
     <GrowProfit/>
-    <BelowGrowProfit/>
+    <BelowGrowProfit/> */}
+    {/* <TrustedSuppliers/>
+    <Prescribe/> */}
+    {/* <MedicinesSlick/>
+    <MedicinesSlick/>
+    <MedicineSmallSlick/> */}
+    {/* <Statistics/> */}
+    {/* <SubscribeNewsletter/> */}
     </>
   )
 }
